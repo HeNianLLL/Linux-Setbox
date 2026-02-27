@@ -15,7 +15,7 @@ A comprehensive, interactive bash script designed to simplify system administrat
 - **Network Utilities**: Network interface management, connectivity testing (ping/DNS), port scanning, open port detection, and route tracing.
 - **System Monitoring**: Real-time process management, resource utilization tracking (CPU/memory/disk), system log analysis, service status checks, and boot time profiling.
 - **Package Source Management**: One-click replacement of system repositories (APT/YUM/DNF) with domestic mirrors (Alibaba Cloud, Tencent Cloud, Huawei Cloud, Tsinghua University) and EPEL repository setup.
-- **Software Installation**: Automated compilation/install of Python (3.8-3.12) and Node.js (16.x/18.x/24.x) with mirror support, compatibility checks for legacy systems (e.g., CentOS 7), and system-wide symlink configuration.
+- **Software Installation**: Automated compilation/install of Python and Node.js with mirror support, compatibility checks for legacy systems (e.g., CentOS 7), and system-wide symlink configuration.
 - **Swap Memory Management**: Create/delete swap files, adjust swappiness values, and view swap usage statistics with persistent configuration (fstab integration).
 
 
