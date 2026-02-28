@@ -196,18 +196,18 @@ function initLanguage() {
         const codeBlocks = document.querySelectorAll('.code-block code');
         if (codeBlocks[0]) {
             codeBlocks[0].textContent = lang === 'zh' ? 
-                'bash <(curl -sSL https://linuxset.com/linux-setbox-cn.sh)' : 
-                'bash <(curl -sSL https://linuxset.com/linux-setbox-en.sh)';
+                'bash <(curl -sSL https://linuxset.com/setbox-cn.sh)' : 
+                'bash <(curl -sSL https://linuxset.com/setbox-en.sh)';
         }
         if (codeBlocks[1]) {
             codeBlocks[1].textContent = lang === 'zh' ? 
-                'wget https://linuxset.com/linux-setbox-cn.sh' : 
-                'wget https://linuxset.com/linux-setbox-en.sh';
+                'wget https://linuxset.com/setbox-cn.sh' : 
+                'wget https://linuxset.com/setbox-en.sh';
         }
         if (codeBlocks[2]) {
             codeBlocks[2].textContent = lang === 'zh' ? 
-                'chmod +x linux-setbox-cn.sh && ./linux-setbox-cn.sh' : 
-                'chmod +x linux-setbox-en.sh && ./linux-setbox-en.sh';
+                'chmod +x setbox-cn.sh && ./setbox-cn.sh' : 
+                'chmod +x setbox-en.sh && ./setbox-en.sh';
         }
 
         // Update terminal content
